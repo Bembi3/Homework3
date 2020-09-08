@@ -4,3 +4,35 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background-color: #ddd9db;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
+    margin-top: 30px;
+    background-color:#aae7aa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h3 {
+    color: rgb(95, 91, 91);
+}
